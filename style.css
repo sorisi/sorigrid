@@ -1,0 +1,141 @@
+* {
+margin: 0;
+padding: 0;
+font-family: 'poppins', sans-serif;
+box-sizing: border-box;
+}
+
+.sori {
+width: 100%;
+height: 95vh;
+background-image:linear-gradient(rgba(0,0,0,0.7), #3551b5), url(images/tmk01.JPG);
+background-position: center;
+background-size: cover;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+h1 {
+display: flex;
+justify-content: center;
+font-family:Bradley Hand ITC ;
+font-size: 20px;
+}
+
+h3 {
+display: flex;
+justify-content: center;
+font-family:Bradley Hand ITC ;
+font-size: 20px;
+}
+
+form {
+  width: 90%;
+  max-width: 500px;
+}
+
+h2 {
+display: flex;
+justify-content: center;
+font-family:'poppins', sans-serif ;
+font-size: 40px;
+color: #fff;
+padding: 10px;
+}
+
+h6 {
+display: flex;
+justify-content: center;
+font-family:'poppins', sans-serif ;
+font-size: 20px;
+color: #fff;
+padding: 5px;
+}
+
+
+.input-group {
+  margin-bottom: 30px;
+  position: relative;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  outline: 0;
+  border: 1px solid #ffff;
+  color: #fff;
+  background: transparent;
+  font-size: 15PX;
+}
+
+label {
+  height: 10%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding: 10px;
+  color: #fff;
+  cursor: text;
+  transition: 0.2s;
+}
+
+button {
+  padding: 10px 0;
+  color: #fff;
+  outline: none;
+  background: transparent;
+  border: 1px solid #ffff;
+  width: 100%;
+  cursor: pointer;
+}
+
+input:focus~label,
+input:valid~label,
+textarea:focus~label,
+ textarea:valid~label{
+  top: -35px;
+  font-size: 14px;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.row .input-group {
+  flex-basis: 48%;
+  
+}
+
+.input-group span {
+  position: absolute;
+  bottom: 12px;
+  right: 17px;
+  font-size: 14px;
+  color: red;
+}
+
+#submit-error {
+  color: red;
+}
+
+.input-group span i {
+  color: seagreen;
+}
+
+footer {
+display: flex;
+padding: 10px;
+justify-content: center;
+font-family:'poppins', sans-serif  ;
+font-size: 15px;
+}
+
+
+
+
+
+
+
